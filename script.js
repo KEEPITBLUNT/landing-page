@@ -57,7 +57,7 @@ const places = [
 const container = document.getElementById("places-container");
 
 places.forEach(place => {
-    const card = document.createElement("div");
+    const card = document.createElement("places-container");
     card.className = "place-card";
 
     card.innerHTML = `
