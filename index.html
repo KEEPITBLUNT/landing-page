@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELORA</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="" href="./images/logo.png " 48x48 >
+    <meta name="description" content="Discover amazing travel destinations and plan your next adventure.">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./images/logo.png" alt="" width="150px">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="text-content">
+                    <h2>Best Destinations Around the World</h2>
+                    <h1>Travel, enjoy <br> and live a new <br> and full life</h1>
+                    <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed
+                        listening.
+                        Park gate sell they west hard for the.</p>
+                    <div class="buttons">
+                        <button class="btn-primary">Find out more</button>
+                        <a class="play-demo">
+                            <span class="circle"></span>
+                            Play Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="./images/image copy 2.png" alt="A woman enjoying her travels">
+                    <!-- Accessibility: Descriptive alt text -->
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <div class="category">Explore Our Services</div>
+            <h2 class="section-title">Discover the Best We Offer</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <img src="./image copy 4.png" alt="Weather icon">
+                    <h3>Calculated Weather</h3>
+                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                </div>
+                <div class="service-item">
+                    <img src="./images/plane.png" alt="Plane icon">
+                    <h3>Best Flights</h3>
+                    <p>Engrossed listening. Park gate sell they west hard for the.</p>
+                </div>
+                <div class="service-item">
+                    <img src="./images/,ike.png" alt="Map icon">
+                    <h3>Local Events</h3>
+                    <p>Barton vanity itself do in it. Prefer to men it engrossed listening.</p>
+                </div>
+                <div class="service-item">
+                    <img src="./images/setting.png" alt="Settings icon">
+                    <h3>Customization</h3>
+                    <p>We deliver outsourced aviation services for military customers.</p>
+                </div>
+            </div>
+        </section>
+        <section class="activity-section">
+            <div class="activity-container">
+                <h2 class="activity-main-title">ACTIVITY</h2>
+                <p class="activity-main-description">Discover exciting activities to enhance your travel experience.
+                    Choose
+                    from a wide range of options to make your trip unforgettable.</p>
+                <div class="activity-grid">
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i class="fas fa-hiking"></i>
+                            <img src="./images/hiking.png" alt="" width="50px" height="50px">
+                        </div>
+                        <h3 class="activity-title">Hiking</h3>
+                        <p class="activity-description">Explore scenic trails and breathtaking landscapes on foot.
+                            Perfect
+                            for nature lovers and adventure seekers.</p>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i class="fas fa-waterfall"></i>
+                            <img src="/images/watersport.png" alt="" width="50px" height="50px">
+                        </div>
+                        <h3 class="activity-title">Water Sports</h3>
+                        <p class="activity-description">Dive into thrilling water activities such as snorkeling,
+                            surfing,
+                            and jet skiing. Experience the ocean like never before.</p>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i class="fas fa-campground"></i>
+                            <img src="./images/camp.png" alt="" width="50px" height="50px">
+                        </div>
+                        <h3 class="activity-title">Camping</h3>
+                        <p class="activity-description">Experience the nature and peaceful environment. With
+                            profestional Guids
+                        </p>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i class="fas fa-campground"></i>
+                            <img src="./images/comunication.png" alt="" width="50px" height="50px">
+                        </div>
+                        <h3 class="activity-title">Comunication</h3>
+                        <p class="activity-description">Experience the nature and peaceful environment. With
+                            profestional Guids
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="perfect-place-section">
+            <div class="perfect-place-container">
+                <h2 class="perfect-place-title">Find The Perfect Place</h2>
+                <p class="perfect-place-desc">A curated list of the most stunning destinations for your next
+                    adventure.</p>
+                <button class="perfect-place-button">Explore Now</button>
+                <div id="places-container" class="places-container">
+                    <!-- Places will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+        <section class="review-section">
+            <h2 class="review-title">Review & Testimonials</h2>
+            <div class="review-card-container">
+                <div class="review-card">
+                    <div class="profile-icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoq0f1tSU2b8opZaApGh5tl2FreFb52dyo6Q&s"
+                            alt="Jane Cooper">
+                    </div>
+                    <h3 class="client-name">Jane Cooper <span class="rating">★4.0</span></h3>
+                    <p class="review-text">Velora took care of everything, making my trip stress-free and exciting.
+                        Perfect balance of adventure and relaxation!.</p>
+                    <a href="#" class="explore-more">Explore More ►</a>
+                </div>
+                <div class="review-card">
+                    <div class="profile-icon">
+                        <img src="https://media.istockphoto.com/id/1406197730/photo/portrait-of-a-young-handsome-indian-man.jpg?s=612x612&w=0&k=20&c=CncNUTbw6mzGsbojks2Vt0kV85N_pQaI3zaSkBQJFTc="
+                            alt="John Alex">
+                    </div>
+                    <h3 class="client-name">John Alex <span class="rating">★4.0</span></h3>
+                    <p class="review-text">Amazing experience with Velora—smooth booking, great accommodations, and
+                        unforgettable sights. Highly recommend their services!.</p>
+                    <a href="#" class="explore-more">Explore More ►</a>
+                </div>
+                <div class="review-card">
+                    <div class="profile-icon">
+                        <img src="https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129416.jpg?ga=GA1.1.113913247.1730372762&semt=ais_hybrid"
+                            alt="Cody Roods">
+                    </div>
+                    <h3 class="client-name">Cody Roods <span class="rating">★4.0</span></h3>
+                    <p class="review-text">Velora made my trip effortless and fun! The itinerary was well-planned, and
+                        the guides were super helpful. Definitely booking again!</p>
+                    <a href="#" class="explore-more">Explore More ►</a>
+                </div>
+            </div>
+            <div class="view-more-button-container">
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <span><img src="./images/logo.png" alt="" srcset="" height="60px"></span>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Consumer Care</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>News</h3>
+                <ul>
+                    <li><a href="#">TravelGo News</a></li>
+                    <li><a href="#">Foodservice</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Locations</h3>
+                <ul>
+                    <li><a href="#">TravelGo® Canada</a></li>
+                    <li><a href="#">TravelGo® Mexico</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe footer-section">
+                <h3>Get the freshest TravelGo news</h3>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Your email here" required>
+                    <button type="submit">Subscribe</button>
+                    <label class="checkbox-label">
+                        <input type="checkbox" required>
+                        By checking the box, you agree that you are at least 16 years of age.
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="footer-social">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Velora. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
